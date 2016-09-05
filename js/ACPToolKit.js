@@ -70,12 +70,13 @@ var ACPToolKit = (function () {
         }
     });
 
-    if (window.location.pathname.indexOf('experiment') > -1) {
+    if ((window.location.pathname.indexOf('experiment') > -1)||(window.location.pathname.indexOf('practiceTrial') > -1)) {
         var wm = new WindowManager('autocompaste-display');
         var currentTrialOptions = null;
         var startTime = null;
 
         module.presentTrial = function (options) {
+            
             startTime = new Date().getTime();
             currentTrialOptions = options;
 
@@ -85,6 +86,7 @@ var ACPToolKit = (function () {
             $('.js-expt-technique').text(options.technique);
             $('.js-expt-granularity').text(options.granularity);
             $('.js-expt-stimuli').text(options.stimuli);
+            $('.js-expt-continuity').text(options.continuity);
 
             // Clean up DOM
             wm.destroyAllWindows();
@@ -108,8 +110,32 @@ var ACPToolKit = (function () {
             }
 
             var iface = new AutoComPaste.Interface(wm, engine, data_file);
-
+            
             // Highlight the relevant text.
+            if (stimuli === "number of atoms") {
+                stimuli = "atoms";
+                iface.addEventListener('loaded', function () {
+                var lines_to_highlight = stimuli.split("\n\n");
+
+                var windows = wm.getWindowList();
+                for (var i = 0; i < windows.length; i++) {
+                    if (windows[i] == 'text_editor') {
+                        continue;
+                    }
+
+                    var win = wm.getWindowContent(windows[i]);
+                    var content = $(win).find('pre').html();
+                    lines_to_highlight.map (function (value, index, array) {
+
+                        content = content.replace (value,
+                        "<span class=\"highlighted\">" + "number of" + "</span>");
+                    });
+
+                  $(win).find('pre').empty().append(content);
+                }
+                });   
+            }
+            
             iface.addEventListener('loaded', function () {
                 var lines_to_highlight = stimuli.split("\n\n");
 
@@ -122,6 +148,7 @@ var ACPToolKit = (function () {
                     var win = wm.getWindowContent(windows[i]);
                     var content = $(win).find('pre').html();
                     lines_to_highlight.map (function (value, index, array) {
+
                         content = content.replace (value,
                         "<span class=\"highlighted\">" + value + "</span>");
                     });

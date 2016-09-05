@@ -54,6 +54,7 @@ AutoComPaste.Interface = (function () {
     };
 
     this._fetchTextsSuccess = function _fetchTextsSuccess (data, text_status, jqxhr) {
+        
       // Check the sanity of data.
       if (!Array.isArray (data)) {
         iface._showerror();
@@ -159,7 +160,8 @@ AutoComPaste.Interface = (function () {
 
     this._createWindowForText = function _createWindowForText (text_title) {
       
-      privates.wm.createWindow(text_title, 500, 400);
+      privates.wm.createWindow(text_title, 700, 700);
+        console.log('text_title', text_title);
       privates.wm.setWindowTitle(text_title, text_title);
       privates.wm.setWindowContent(text_title,
         $(document.createElement('pre'))

@@ -23,6 +23,7 @@
                         <li class="active"><a href="index.html">Welcome</a></li>
                         <li><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
                         <li><a href="instructions.html">Instructions</a></li>
+                        <li><a href="practiceTrial.html">Practice</a></li>
                         <li><a href="experiment.html">Experiment</a></li>
                         <li><a href="questionnaire-post.html">Post Questionnaire</a></li>
                     </ul>
@@ -35,13 +36,13 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h1>Welcome!!!!!!!</h1>
                     <hr>
-                    <p>The startup interface provides the basic instructions to your participants, and also collect input from the participant/experimenter the participant ID so that you can generate the correct data log for a particular experiment session.</p>
+                    <p>I am a Year 3 NUS Computer Science student conducting an experiment to compare AutoComPaste, which is a new copy-paste technique, with the traditional copy-paste (Ctrl-C Ctrl-V) technique. In this experiment, you will be guided to key in several texts by using the two techniques. </p>
 
-                    <p>This is a template. Please write your participant number ID given by your experimenter. Participant IDs should only consist of alphanumeric characters.</p>
+                    <p>Please write your participant number ID given by your experimenter. Participant IDs should start with either "AC", "AS", "CC" or "CS"</p>
                     <form class="form-inline" id="pid-form">
                         <div class="form-group">
                             <label for="pid">Participant ID</label>
-                            <input name="pid" type="text" class="form-control" id="pid" placeholder="E.g. P01">
+                            <input name="pid" type="text" class="form-control" id="pid" placeholder="E.g. AC01">
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
@@ -60,7 +61,7 @@
                 $('#pid-form').submit(function (event) {
                     event.preventDefault();
                     var participantId = $('#pid').val();
-                    if (participantId) {
+                    if (participantId.includes("AC") || participantId.includes("AS") || participantId.includes("CC") || participantId.includes("CS")) {
                         ACPToolKit.setCurrentParticipantId(participantId);
                         window.location = 'questionnaire-pre.html';
                     } else {

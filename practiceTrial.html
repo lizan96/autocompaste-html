@@ -23,8 +23,8 @@
                         <li><a href="index.html">Welcome</a></li>
                         <li><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
                         <li><a href="instructions.html">Instructions</a></li>
-                        <li><a href="practiceTrial.html">Practice</a></li>
-                        <li class="active"><a href="experiment.html">Experiment</a></li>
+                        <li class="active"><a href="practiceTrial.html">Practice</a></li>
+                        <li><a href="experiment.html">Experiment</a></li>
                         <li><a href="questionnaire-post.html">Post Questionnaire</a></li>
                     </ul>
                 </div>
@@ -62,7 +62,7 @@
                     </table>
                     <p>Please copy-paste the following <span class="js-expt-continuity">continuous</span> <span class="js-expt-granularity">phrase</span> using the <span class="js-expt-technique">AUTOCOMPASTE</span> technique from one of the open windows.</p>
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a long stimuli!</div>
-                    <button class="btn btn-primary btn-lg" onclick="next()">Next Task</button>
+                    <button class="btn btn-primary btn-lg" onclick="practiceNext()">Next Task</button>
                 </div>
                 <div id="autocompaste" class="col-sm-9">
                     <div id="autocompaste-display"></div>
@@ -100,7 +100,7 @@
             var participantId;
             var jsonFileName;
 
-            function next () {
+            function practiceNext () {
 
                 if (currentTrial !== 0) {
                     // Save results of current trial
@@ -125,79 +125,29 @@
                     trialData.push(row);
                 }
 
-                if (currentBlock < totalNumberOfBlocks) {
-                    if (currentTrial < totalNumberOfTrials) {
-                        // Show the next trial
-                        ACPToolKit.presentTrial(trialsData[currentTrial]);
-                        currentTrial += 1;
-                        $('.js-expt-current-trial').text(currentTrial);
-                        $('.js-expt-current-block').text(currentBlock);
-                    } else {
-                        // Last trial completed
-                        $('.js-expt-current-block').text(currentBlock);
-                        
-                        $(document).ready(function () {
-                        $.getJSON(jsonFileName, function (data) {
-                            // Initialise experiments
-                            totalNumberOfBlocks = Object.keys(data).length;
-
-                            if (currentBlock === 1) {
-                                trialsData = data.block2;
-                            } else {
-                                trialsData = data.block3;
-                            }
-                            
-                            currentTrial = 0;
-                            currentBlock += 1;
-
-                            totalNumberOfTrials = trialsData.length;
-
-                            $('.js-expt-num-trials').text(totalNumberOfTrials);
-                            $('.js-expt-num-blocks').text(totalNumberOfBlocks);
-
-                            if (currentBlock === 2) {
-                                 window.alert("Block 1 finished! Take a break if you need. Press ok and 'Next Task' button to continue");
-                            } else {
-                                window.alert("Block 2 finished! Take a break if you need. Press ok and Next 'Task button' to continue");
-                            }
-                            })
-                        });        
-                    }
+                if (currentTrial < totalNumberOfTrials) {
+                    // Show the next trial
+                    ACPToolKit.presentTrial(trialsData[currentTrial]);
+                    currentTrial += 1;
+                    $('.js-expt-current-trial').text(currentTrial);
+                    $('.js-expt-current-block').text(currentBlock);
                 } else {
-                    if (currentTrial < totalNumberOfTrials) {
-                        // Show the next trial
-                        ACPToolKit.presentTrial(trialsData[currentTrial]);
-                        currentTrial += 1;
-                        $('.js-expt-current-trial').text(currentTrial);
-                        $('.js-expt-current-block').text(currentBlock);
-                    } else {
-                        // Last trial completed
-                        ACPToolKit.downloadTrialResults(trialData);
-                        window.location = 'questionnaire-post.html';
-                    }
+                    // Last trial completed
+                    window.alert("Practice trials end. Now actual tasks start!");
+                    window.location = 'experiment.html';
                 }
                 
             }
              
             $(document).ready(function () {
                 participantId = ACPToolKit.getCurrentParticipantId();
-                if (participantId.includes("AC")) {
-                    jsonFileName = 'data/AC.json'
-                } else if (participantId.includes("AS")) {
-                    jsonFileName = 'data/AS.json'
-                } else if (participantId.includes("CC")) {
-                    jsonFileName = 'data/CC.json'
-                } else if (participantId.includes("CS")) {
-                    jsonFileName = 'data/CS.json'
-                } else {
-                    window.alert("Wrong participant ID!");
-                }
                 
-                $.getJSON(jsonFileName, function (data) {
+                $.getJSON('data/practice.json', function (data) {
                     // Initialise experiments
                     totalNumberOfBlocks = Object.keys(data).length;
+                    console.log(totalNumberOfBlocks);
                 
-                    trialsData = data.block1;
+                    trialsData = data.practice;
                     
                     currentTrial = 0;
                     currentBlock = 1;
@@ -207,10 +157,9 @@
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
                     $('.js-expt-num-blocks').text(totalNumberOfBlocks);
                   
-                    
                     trialData.push(headers);
                    
-                    next();
+                    practiceNext();
                     
                 })
             });

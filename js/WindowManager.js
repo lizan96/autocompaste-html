@@ -129,13 +129,16 @@ var WindowManager = (function () {
 
       // Set the dimensions.
       if (width != undefined) {
+          width += 120;
         $(win_struct).css({
           'min-width': width + 'px',
           'width': width + 'px'
         });
+          console.log('width', width);
       }
 
       if (height != undefined) {
+          height += 120;
         var title_height = $(win_struct).find('.modal-header').height ();
         $(win_struct)
           .find('.modal-body')

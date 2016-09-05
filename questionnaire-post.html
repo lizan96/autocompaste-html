@@ -23,6 +23,7 @@
                         <li><a href="index.html">Welcome</a></li>
                         <li><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
                         <li><a href="instructions.html">Instructions</a></li>
+                        <li><a href="practiceTrial.html">Practice</a></li>
                         <li><a href="experiment.html">Experiment</a></li>
                         <li class="active"><a href="questionnaire-post.html">Post Questionnaire</a></li>
                     </ul>
@@ -35,58 +36,302 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h1>Post-Experiment Questionnaire</h1>
                     <hr>
-                    <p>This part of the interface collects whatever post-experiment information. After the experiment, you want to collect more qualitative and quantitative feedback about the tested techniques. Some of the typical questions include, personal preferences, any difficulties participants experienced in the experiment, and areas of improvement. Please design a basic post-experimental questionnaire (no more than 10 questions).</p>
+                    <p>Thanks for participating this experiment. This post-experiment questionnaire will ask you about your opinions towards this two techniques and the whole experiment. All the data will be kept confidential.</p>
 
                     <p>Current participant: <span class="js-pid pid"></span></p>
 
-                    <form id="post-expt-form">
+                    <form id="post-expt-form">                    
                         <div class="form-group">
-                            <label for="q1">Question 1 - Text</label>
-                            <input type="text" class="form-control" id="q1" name="q1" placeholder="Enter answer">
-                        </div>
-                        <div class="form-group">
-                            <label for="q2">Question 2 - Radio</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q2" id="optionsRadios1" value="radio1">
-                                Radio response 1
-                              </label>
+                            <label for="q1">Question 1 - How do you like the AutoComPaste technique? (0: do not like at all, 10: extremely like)</label>
+                            <div>
+                                <label class="radio-inline">Input a phrase</label>
+
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+                                    <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option4"> 4
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option5"> 5
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option6"> 6
+                                    <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option7"> 7
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option8"> 8
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option9"> 9
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option10"> 10
+                                </label>
                             </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q2" id="optionsRadios2" value="radio2">
-                                Radio response 2
-                              </label>
+                                    
+                            <div>
+                                <label class="radio-inline">Input a sentence</label>
+
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+                                    <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 4
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 5
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 6
+                                    <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 7
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 8
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 9
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 10
+                                </label>
+                            </div>
+                            
+                            <div>
+                                <label class="radio-inline">Input a paragraph</label>
+
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+                                    <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 4
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 5
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 6
+                                    <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 7
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 8
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 9
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 10
+                                </label>
                             </div>
                         </div>
+                        
                         <div class="form-group">
-                            <label for="q3">Question 3 - Checkbox</label>
+                            <label for="q2">Question 2 – How do you like the traditional (Ctrl-C Ctrl-V) technique? (0: do not like at all, 10: extremely like)</label>
+                            <div>
+                                <label class="radio-inline">Input a phrase</label>
+
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+                                    <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option4"> 4
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option5"> 5
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option6"> 6
+                                    <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option7"> 7
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option8"> 8
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option9"> 9
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option10"> 10
+                                </label>
+                            </div>
+                                    
+                            <div>
+                                <label class="radio-inline">Input a sentence</label>
+
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+                                    <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 4
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 5
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 6
+                                    <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 7
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 8
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 9
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 10
+                                </label>
+                            </div>
+                            
+                            <div>
+                                <label class="radio-inline">Input a paragraph</label>
+
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+                                    <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 4
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 5
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 6
+                                    <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 7
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 8
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 9
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 10
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="q3">Question 3 – What advantages do you think the AutoComPaste technique have compared with the traditional (Ctrl-C Ctrl-V) technique?</label>
                             <div class="checkbox">
                               <label>
                                 <input type="checkbox" name="q3" value="checkbox1">
-                                Checkbox response 1
+                                Easier to learn
                               </label>
                             </div>
                             <div class="checkbox">
                               <label>
                                 <input type="checkbox" name="q3" value="checkbox2">
-                                Checkbox response 2
+                               Faster
                               </label>
                             </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox" name="q3" value="checkbox3">
+                               Higher correct rate
+                              </label>
+                            </div>
+                            <div class="checkbox" id="cb">
+                              <label>
+                                <input type="checkbox" name="q3" value="checkbox4">
+                               Others
+                              </label>
+                            </div>
+                            <input type="text" class="form-control" id="q3" name="q3" placeholder="Enter answer">
                         </div>
+                                
                         <div class="form-group">
-                            <label for="q4">Question 4 - Select Options</label>
-                            <select class="form-control" name="q4">
-                                <option value="option1">Option response 1</option>
-                                <option value="option2">Option response 2</option>
-                                <option value="option3">Option response 3</option>
-                                <option value="option4">Option response 4</option>
-                                <option value="option1">Option response 5</option>
-                            </select>
+                            <label for="q4">Question 4 – What advantages do you think the traditional (Ctrl-C Ctrl-V) technique have compared with AutoComPaste?</label>
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox" name="q4" value="checkbox1">
+                                Easier to learn
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox" name="q4" value="checkbox2">
+                               Faster
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox" name="q4" value="checkbox3">
+                               Higher correct rate
+                              </label>
+                            </div>
+                            <div class="checkbox" id="cb">
+                              <label>
+                                <input type="checkbox" name="q4" value="checkbox4">
+                               Others
+                              </label>
+                            </div>
+                            <input type="text" class="form-control" id="q4" name="q4" placeholder="Enter answer">
                         </div>
+                        
+                        <div class="form-group"><label>Question 5 – If AutoComPaste is provided, would you use AutoComPaste rather than the traditional (Ctrl-C Ctrl-V) technique?</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q5" id="optionsRadios1" value="radio1">
+                                Yes
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q5" id="optionsRadios2" value="radio2">
+                                Neutral
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q5" id="optionsRadios3" value="radio3">
+                                No
+                              </label>
+                            </div>
+                        </div>        
+                       
                         <div class="form-group">
-                            <label for="q5">Question 5 - Textarea</label>
-                            <textarea class="form-control" id="q5" name="q5" placeholder="Enter response"></textarea>
+                            <label for="q6">Question 6 – Any difficulties that you encountered throughout the whole experiment?</label>
+                            <textarea class="form-control" id="q6" name="q6" placeholder="Enter response"></textarea>
+                        </div>
+                                
+                        <div class="form-group">
+                            <label for="q7">Question 7 – Any other comment about the two techniques or the experiment?</label>
+                            <textarea class="form-control" id="q7" name="q7" placeholder="Enter response"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                     </form>

@@ -1,0 +1,1016 @@
+{
+  "block1": [
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is acceptor atoms?"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "Power supply that delivers an AC voltage."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "A multi vibrator with two stable states."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "Condition that occurs when a bridge circuit is adjusted to produce a zero output."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is analog? Information represented as continuously varying voltage or current rather than in discrete levels as opposed to digital data varying between two discrete levels."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is band-pass filter? A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2)."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "number of positive charges"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "a type of adjective"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "bipolar junction transistor"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "all possible combinations of AC output voltage"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is an amplifier?"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "A filter in addition to reactive components to pass or reject selected frequencies"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "articles cannot easily be combined with other parts of speech."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "A method of biasing a BJT is supplied to the base by means of a resistor."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is avionics? What is barrier potential?"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "A value of voltage or current where the area of the wave above the value equals the area of the wave below the value. Aviation electronics."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective.It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "number of atoms"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "a type of languages"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "falls back and repeats"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "all possible AC output voltage"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is acceptor atoms?"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "Power supply that delivers an AC voltage."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "A multi vibrator with two stable states."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "Condition that occurs when a bridge circuit is adjusted to produce a zero output."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is analog? Information represented as continuously varying voltage or current rather than in discrete levels as opposed to digital data varying between two discrete levels."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is band-pass filter? A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2)."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "number of positive charges"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "a type of adjective"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "bipolar junction transistor"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "all possible combinations of AC output voltage"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is an amplifier?"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "A filter in addition to reactive components to pass or reject selected frequencies"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "articles cannot easily be combined with other parts of speech."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "A method of biasing a BJT is supplied to the base by means of a resistor."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is avionics? What is barrier potential?"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "A value of voltage or current where the area of the wave above the value equals the area of the wave below the value. Aviation electronics."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective.It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "number of atoms"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "a type of languages"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "falls back and repeats"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "all possible AC output voltage"
+    }
+  ],
+  "block2": [
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is active region?"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "A meter used to measure current."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is apparent power? Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is anode? The positive electrode or terminal of a device. The \"P\" material of a diode."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is armstrong oscillator? An oscillator that uses an isolation transformer to achieve positive feedback from output to input."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "method of biasing"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "be heard by the human ear"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "reduce the amplitude"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "barrier potential"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is an amplifier?"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Equipment that passes an AC signal while blocking a DC voltage."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Power supply that changes the amplitude of a signal between input and output."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "The region of BJT operation in which the polarity alternates."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is AC generator? What is barrier potential?"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is AC coupling? Device used to transform mechanical energy into AC electrical power."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is band-pass filter? Frequencies above and below the pass band are heavily attenuated."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is barrier potential? A number system having only two symbols, 0 and 1. A base 2 number system."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "A DC system"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "natural difference of BJT"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "battery or power"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Name for ammeter"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is active region?"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "A meter used to measure current."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is apparent power? Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is anode? The positive electrode or terminal of a device. The \"P\" material of a diode."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is armstrong oscillator? An oscillator that uses an isolation transformer to achieve positive feedback from output to input."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "method of biasing"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "be heard by the human ear"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "reduce the amplitude"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "barrier potential"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is an amplifier?"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Equipment that passes an AC signal while blocking a DC voltage."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Power supply that changes the amplitude of a signal between input and output."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "The region of BJT operation in which the polarity alternates."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is AC generator? What is barrier potential?"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is AC coupling? Device used to transform mechanical energy into AC electrical power."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is band-pass filter? Frequencies above and below the pass band are heavily attenuated."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is barrier potential? A number system having only two symbols, 0 and 1. A base 2 number system."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "A DC system"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "natural difference of BJT"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "battery or power"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Name for ammeter"
+    }
+  ],
+  "block3": [
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "A meter used to measure current."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "Magnitude or size of a signal voltage or current."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "The positive electrode or terminal of a device."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). Frequencies above and below the pass band are heavily attenuated."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "method of biasing a BJT"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "the band of frequencies"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "heard by the human ear"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "terminal of a device"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "A circuit or terminal of a device."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Power attained in an AC circuit and current which reach their peak at different times."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "An oscillator that can be heard by the human ear."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Every noun must be corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is bistable multivibrator? This is in contrast to other adjectives and determiners, which are typically optional."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is battery? Also called a latch."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is bistable multivibrator? An external signal is required to change the output from one state to the other."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Width of the band of frequencies between the half power points. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "three stable states"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "optional adjectives and determiners"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "having two symbols"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "tuned circuit to pass a band of frequencies"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "A meter used to measure current."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "Magnitude or size of a signal voltage or current."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "The positive electrode or terminal of a device."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). Frequencies above and below the pass band are heavily attenuated."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "method of biasing a BJT"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "the band of frequencies"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "heard by the human ear"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "terminal of a device"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "A circuit or terminal of a device."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Power attained in an AC circuit and current which reach their peak at different times."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "An oscillator that can be heard by the human ear."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Every noun must be corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is bistable multivibrator? This is in contrast to other adjectives and determiners, which are typically optional."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is battery? Also called a latch."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is bistable multivibrator? An external signal is required to change the output from one state to the other."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Width of the band of frequencies between the half power points. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "three stable states"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "optional adjectives and determiners"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "having two symbols"
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "tuned circuit to pass a band of frequencies"
+    }
+  ]
+}
