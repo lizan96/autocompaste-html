@@ -15,7 +15,7 @@ What is AC generator?
 Device used to transform mechanical energy into AC electrical power.
 
 What is AC load line? 
-A graph representing all possible combinations of AC output voltage and currentfor an amplifier.
+A graph representing all possible combinations of AC output voltage and currentfor an amplifier?
 
 What is AC power supply? 
 Power supply that delivers an AC voltage.

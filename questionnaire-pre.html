@@ -36,27 +36,27 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h1>Pre-Experiment Questionnaire</h1>
                     <hr>
-                    <p>This questionnaire aims to collect basic information from participants. It is anonymous and all data collected will be kept confidential.</p>
+                    <p>This questionnaire aims to collect basic information from participants. After finishing this questionnaire and press “Submit” button, an csv file containing all your answers will be generated. Please download the file and send it to <a href="mailto:lizanmaggie@gmail.com?Subject=Pre-questionnaire" target="_top">lizanmaggie@gmail.com</a>. All data collected will be kept confidential.</p>
 
                     <p>Please put all information needed for participant: <span class="js-pid pid"></span></p>
 
                     <form id="pre-expt-form">
                         <div class="form-group">
                             <label for="q1">Question 1 - Age</label>
-                            <input type="text" class="form-control" id="q1" name="q1" placeholder="Enter answer" required>
+                            <input type="text" class="form-control" id="q1" name="Age" placeholder="Enter answer" required>
                         </div>
                        
                         <div class="form-group">
                             <label for="q2">Question 2 - Gender</label>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q2" id="optionsRadios1" value="radio1" required>
+                                <input type="radio" name="Gender" id="optionsRadios1" value="Male" required>
                                 Male
                               </label>
                             </div>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q2" id="optionsRadios2" value="radio2">
+                                <input type="radio" name="Gender" id="optionsRadios2" value="Female">
                                 Female
                               </label>
                             </div>
@@ -64,49 +64,52 @@
                    
                         <div class="form-group">
                             <label for="q3">Question 3 - Educational background</label>
-                            <select class="form-control" name="q3">
-                                <option value="option1">Master or above</option>
-                                <option value="option2">Bachelor</option>
-                                <option value="option3">High school</option>
-                                <option value="option4">Secondary school</option>
+                            <select class="form-control" name="Educational background">
+                                <option value="Master or above">Master or above</option>
+                                <option value="Bachelor">Bachelor</option>
+                                <option value="High school">High school</option>
+                                <option value="Secondary school">Secondary school</option>
                             </select>
                         </div>
                        
                         <div class="form-group">
                             <label for="q4">Question 4 - Occupation</label>
-                            <input type="text" class="form-control" id="q4" name="q4" placeholder="Enter answer" required>
+                            <input type="text" class="form-control" id="q4" name="Occupation" placeholder="Enter answer" required>
                         </div>
                        
                         <div class="form-group">
                             <label for="q5">Question 5 - Please rate your computer skill (0: novice user, 10: professional user)</label>
                             <div>
                                 <label class="radio-inline">
-                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required> 1
+                                    <input type="radio" name="Please rate your computer skill (0: novice user, 10: professional user)" id="inlineRadio0" value="0" required> 0
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                                    <input type="radio" name="Please rate your computer skill (0: novice user, 10: professional user)" id="inlineRadio1" value="1" required> 1
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+                                    <input type="radio" name="Please rate your computer skill (0: novice user, 10: professional user)" id="inlineRadio2" value="2"> 2
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="Please rate your computer skill (0: novice user, 10: professional user)" id="inlineRadio3" value="3"> 3
                                     <label class="radio-inline">
-                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option4"> 4
+                                    <input type="radio" name="Please rate your computer skill (0: novice user, 10: professional user)" id="inlineRadio4" value="4"> 4
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option5"> 5
+                                    <input type="radio" name="Please rate your computer skill (0: novice user, 10: professional user)" id="inlineRadio5" value="5"> 5
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option6"> 6
+                                    <input type="radio" name="Please rate your computer skill (0: novice user, 10: professional user)" id="inlineRadio6" value="6"> 6
                                     <label class="radio-inline">
-                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option7"> 7
+                                    <input type="radio" name="Please rate your computer skill (0: novice user, 10: professional user)" id="inlineRadio7" value="7"> 7
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option8"> 8
+                                    <input type="radio" name="Please rate your computer skill (0: novice user, 10: professional user)" id="inlineRadio8" value="8"> 8
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option9"> 9
+                                    <input type="radio" name="Please rate your computer skill (0: novice user, 10: professional user)" id="inlineRadio9" value="9"> 9
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option10"> 10
+                                    <input type="radio" name="Please rate your computer skill (0: novice user, 10: professional user)" id="inlineRadio10" value="10"> 10
                                 </label>
                             </div>
                         </div>
@@ -115,13 +118,13 @@
                             <label for="q6">Question 6 - Do you have any prior experience with autocomplete technique (eg. The auto-completion when you enter query for Google searching)?</label>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q6" id="optionsRadios1" value="radio1" required>
+                                <input type="radio" name="Do you have any prior experience with autocomplete technique (eg. The auto-completion when you enter query for Google searching)?" id="optionsRadios1" value="Yes" required>
                                 Yes
                               </label>
                             </div>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q6" id="optionsRadios2" value="radio2">
+                                <input type="radio" name="Do you have any prior experience with autocomplete technique (eg. The auto-completion when you enter query for Google searching)?" id="optionsRadios2" value="No">
                                 No
                               </label>
                             </div>
@@ -131,13 +134,13 @@
                             <label for="q7">Question 7 - Do you have any prior experience with traditional (ctrl-c and ctrl-v) copy-paste technique?</label>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q7" id="optionsRadios1" value="radio1" required>
+                                <input type="radio" name="Do you have any prior experience with traditional (ctrl-c and ctrl-v) copy-paste technique?" id="optionsRadios1" value="Yes" required>
                                 Yes
                               </label>
                             </div>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q7" id="optionsRadios2" value="radio2">
+                                <input type="radio" name="Do you have any prior experience with traditional (ctrl-c and ctrl-v) copy-paste technique?" id="optionsRadios2" value="No">
                                 No
                               </label>
                             </div>

@@ -160,7 +160,7 @@ AutoComPaste.Interface = (function () {
 
     this._createWindowForText = function _createWindowForText (text_title) {
       
-      privates.wm.createWindow(text_title, 700, 700);
+      privates.wm.createWindow(text_title, 500, 500);
         console.log('text_title', text_title);
       privates.wm.setWindowTitle(text_title, text_title);
       privates.wm.setWindowContent(text_title,
