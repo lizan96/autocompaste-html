@@ -1,143 +1,92 @@
-What is absorption? 
-Loss or dissipation of energy as it travels through a medium. 
+What is absorption? Loss or dissipation of energy as it travels through a medium. 
 Example: radio waves lose some of their energy as they travel through that atmosphere. What about this... Hello there
 
-What is acceptor atoms? 
-Trivalent atoms that accept free electrons from pentavalent atoms.
+What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms.
 
-What is AC coupling? 
-Circuit that passes an AC signal while blocking a DC voltage.
+What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage.
 
-What is AC/DC? 
-Equipment that will operate on either an AC or DC power source.
+What is AC/DC? Equipment that will operate on either an AC or DC power source.
 
-What is AC generator? 
-Device used to transform mechanical energy into AC electrical power.
+What is AC generator? Device used to transform mechanical energy into AC electrical power.
 
-What is AC load line? 
-A graph representing all possible combinations of AC output voltage and currentfor an amplifier?
+What is AC load line? A graph representing all possible combinations of AC output voltage and currentfor an amplifier?
 
-What is AC power supply? 
-Power supply that delivers an AC voltage.
+What is AC power supply? Power supply that delivers an AC voltage.
 
-What is active component? 
-A component that changes the amplitude of a signal between input and output.
+What is active component? A component that changes the amplitude of a signal between input and output.
 
-What is active filter? 
-A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies.
+What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies.
 
-What is active region? 
-The region of BJT operation between saturation and cut off used for linear amplification.
+What is active region? The region of BJT operation between saturation and cut off used for linear amplification.
 
-What is AC voltage? 
-A voltage in which the polarity alternates.
+What is AC voltage? A voltage in which the polarity alternates.
 
-What is Admittance? 
-(symbol "Y") Measure of how easily AC will flow through a circuit. 
-Admittance is the reciprocal of impedance and is measured in siemens.
+What is Admittance? (symbol "Y") Measure of how easily AC will flow through a circuit. Admittance is the reciprocal of impedance and is measured in siemens.
 
-What is alkaline cell? 
-A primary cell that delivers more current than a carbon-zinc cell. 
-Also known as an "alkaline manganese cell".
+What is alkaline cell? A primary cell that delivers more current than a carbon-zinc cell. Also known as an "alkaline manganese cell".
 
-What is alligator clip? 
-Spring clip on the end of a test lead used to make a temporary connection.
+What is alligator clip? Spring clip on the end of a test lead used to make a temporary connection.
 
-What is alpha? 
-Ratio of collector current to emitter current in a bipolar junction transistor (BJT) Greek letter alpha "a" is the symbol used.
+What is alpha? Ratio of collector current to emitter current in a bipolar junction transistor (BJT) Greek letter alpha "a" is the symbol used.
 
-What is alternating current? 
-An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats.
+What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats.
 
-What is alternator? 
-Name for an AC generator.
+What is alternator? Name for an AC generator.
 
-What is ammeter? 
-A meter used to measure current.
+What is ammeter? A meter used to measure current.
 
-What is ampere? 
-Unit of electrical current. 12 is the number
+What is ampere? Unit of electrical current. 12 is the number
 
-What is amplifier? 
-A circuit that increases the voltage, current, or power of a signal.
+What is amplifier? A circuit that increases the voltage, current, or power of a signal.
 
-What is amplitude? 
-Magnitude or size of a signal voltage or current.
+What is amplitude? Magnitude or size of a signal voltage or current.
 
-What is analog? 
-Information represented as continuously varying voltage or current rather than in discrete levels as opposed to digital data varying between two discrete levels.
+What is analog? Information represented as continuously varying voltage or current rather than in discrete levels as opposed to digital data varying between two discrete levels.
 
-What is anode? 
-The positive electrode or terminal of a device. 
-The "P" material of a diode.
+What is anode? The positive electrode or terminal of a device. The "P" material of a diode.
 
-What is antenna, receiving? 
-A device that converts a radiated electromagnetic wave into an electrical wave.
+What is antenna, receiving? A device that converts a radiated electromagnetic wave into an electrical wave.
 
-What is apparent power? 
-Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times.
+What is apparent power? Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times.
 
-What is armature? 
-The rotating or moving component of a magnetic circuit.
+What is armature? The rotating or moving component of a magnetic circuit.
 
-What is armstrong oscillator? 
-An oscillator that uses an isolation transformer to achieve positive feedback from output to input.
+What is armstrong oscillator? An oscillator that uses an isolation transformer to achieve positive feedback from output to input.
 
-What is atomic number? 
-The number of positive charges or protons in the nucleus of an atom.
+What is atomic number? The number of positive charges or protons in the nucleus of an atom.
 
-What is attenuate? 
-To reduce the amplitude of an action or signal. The opposite of amplification.
+What is attenuate? To reduce the amplitude of an action or signal. The opposite of amplification.
 
-What is audio? 
-Relating to frequencies that can be heard by the human ear. 
+What is audio? Relating to frequencies that can be heard by the human ear. 
 Approximately 20 Hz to 20 kHz.
 
-What is autotransformer? 
-A single winding transformer where the output is taken from taps on the winding.
+What is autotransformer? A single winding transformer where the output is taken from taps on the winding.
 
-What is average value? 
-A value of voltage or current where the area of the wave above the value equals the area of the wave below the value.
+What is average value? A value of voltage or current where the area of the wave above the value equals the area of the wave below the value.
 
-What is avionics? 
-Aviation electronics.
+What is avionics? Aviation electronics.
 
-What is balanced bridge? 
-Condition that occurs when a bridge circuit is adjusted to produce a zero output.
+What is balanced bridge? Condition that occurs when a bridge circuit is adjusted to produce a zero output.
 
-What is band-pass filter? 
-A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). 
+What is band-pass filter? A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). 
 Frequencies above and below the pass band are heavily attenuated.
 
-What is bandwidth? 
-Width of the band of frequencies between the half power points.
+What is bandwidth? Width of the band of frequencies between the half power points.
 
-What is barrier potential? T
-he natural difference of potential that exists across a forward biased pn junction.
+What is barrier potential? The natural difference of potential that exists across a forward biased pn junction.
 
-What is base biasing? 
-A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor.
+What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor.
 
-What is battery? 
-A DC voltage source containing two or more cells that convert chemical energy to electrical energy.
+What is battery? A DC voltage source containing two or more cells that convert chemical energy to electrical energy.
 
-What is binary? 
-A number system having only two symbols, 0 and 1. 
-A base 2 number system.
+What is binary? A number system having only two symbols, 0 and 1. A base 2 number system.
 
-What is bipolar junction transistor? (BJT). 
-A three terminal device in which emitter to collector current is controlled by base current.
+What is bipolar junction transistor? (BJT). A three terminal device in which emitter to collector current is controlled by base current.
 
-What is bistable multivibrator? 
-A multi vibrator with two stable states. 
-An external signal is required to change the output from one state to the other. 
+What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. 
 Also called a latch.
 
-Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. 
-It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that').
+Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that').
 
-In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. 
-Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness. 
-This is in contrast to other adjectives and determiners, which are typically optional. 
-This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the.
+In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness. This is in contrast to other adjectives and determiners, which are typically optional. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the.
 
