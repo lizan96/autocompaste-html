@@ -5,84 +5,84 @@
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is an amplifier?"
+      "stimuli": "What is || an amplifier?"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "A filter in addition to reactive components to pass or reject selected frequencies"
+      "stimuli": "A filter || in addition to reactive components to pass or reject selected frequencies"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "articles cannot easily be combined with other parts of speech."
+      "stimuli": "articles || cannot easily be combined with other parts of speech."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "A method of biasing a BJT is supplied to the base by means of a resistor."
+      "stimuli": "A method of biasing a BJT || is supplied to the base by means of a resistor."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is avionics? What is barrier potential?"
+      "stimuli": "What is avionics? || What is barrier potential?"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "A value of voltage or current where the area of the wave above the value equals the area of the wave below the value. Aviation electronics."
+      "stimuli": "A value of voltage or current where the area of the wave above the value equals the area of the wave below the value. || Aviation electronics."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective.It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+      "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. || It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+      "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. || This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "number of atoms"
+      "stimuli": "number of || atoms"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "a type of languages"
+      "stimuli": "a type of || languages"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "falls back and repeats"
+      "stimuli": "falls back || and repeats"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "all possible AC output voltage"
+      "stimuli": "all possible || AC output voltage"
     },
     {
       "technique": "AUTOCOMPASTE",
@@ -173,84 +173,84 @@
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is an amplifier?"
+      "stimuli": "What is || an amplifier?"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "A filter in addition to reactive components to pass or reject selected frequencies"
+      "stimuli": "A filter || in addition to reactive components to pass or reject selected frequencies"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "articles cannot easily be combined with other parts of speech."
+      "stimuli": "articles || cannot easily be combined with other parts of speech."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "A method of biasing a BJT is supplied to the base by means of a resistor."
+      "stimuli": "A method of biasing a BJT || is supplied to the base by means of a resistor."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is avionics? What is barrier potential?"
+      "stimuli": "What is avionics? || What is barrier potential?"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "A value of voltage or current where the area of the wave above the value equals the area of the wave below the value. Aviation electronics."
+      "stimuli": "A value of voltage or current where the area of the wave above the value equals the area of the wave below the value. || Aviation electronics."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective.It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+      "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. || It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+      "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. || This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "number of atoms"
+      "stimuli": "number of || atoms"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "a type of languages"
+      "stimuli": "a type of || languages"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "falls back and repeats"
+      "stimuli": "falls back || and repeats"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "all possible AC output voltage"
+      "stimuli": "all possible || AC output voltage"
     },
     {
       "technique": "TRADITIONAL",
@@ -343,84 +343,84 @@
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is an amplifier?"
+      "stimuli": "What is || an amplifier?"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Equipment that passes an AC signal while blocking a DC voltage."
+      "stimuli": "Equipment || that passes an AC signal while blocking a DC voltage."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Power supply that changes the amplitude of a signal between input and output."
+      "stimuli": "Power supply || that changes the amplitude of a signal between input and output."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "The region of BJT operation in which the polarity alternates."
+      "stimuli": "The region of BJT operation || in which the polarity alternates."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is AC generator? What is barrier potential?"
+      "stimuli": "What is AC generator? || What is barrier potential?"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is AC coupling? Device used to transform mechanical energy into AC electrical power."
+      "stimuli": "What is AC coupling? || Device used to transform mechanical energy into AC electrical power."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is band-pass filter? Frequencies above and below the pass band are heavily attenuated."
+      "stimuli": "What is band-pass filter? || Frequencies above and below the pass band are heavily attenuated."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is barrier potential? A number system having only two symbols, 0 and 1. A base 2 number system."
+      "stimuli": "What is barrier potential? || A number system having only two symbols, 0 and 1. A base 2 number system."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "A DC system"
+      "stimuli": "A DC || system"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "natural difference of BJT"
+      "stimuli": "natural difference of || BJT"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "battery or power"
+      "stimuli": "battery || or power"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Name for ammeter"
+      "stimuli": "Name for || ammeter"
     },
     {
       "technique": "TRADITIONAL",
@@ -511,84 +511,84 @@
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is an amplifier?"
+      "stimuli": "What is || an amplifier?"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Equipment that passes an AC signal while blocking a DC voltage."
+      "stimuli": "Equipment || that passes an AC signal while blocking a DC voltage."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Power supply that changes the amplitude of a signal between input and output."
+      "stimuli": "Power supply || that changes the amplitude of a signal between input and output."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "The region of BJT operation in which the polarity alternates."
+      "stimuli": "The region of BJT operation || in which the polarity alternates."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is AC generator? What is barrier potential?"
+      "stimuli": "What is AC generator? || What is barrier potential?"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is AC coupling? Device used to transform mechanical energy into AC electrical power."
+      "stimuli": "What is AC coupling? || Device used to transform mechanical energy into AC electrical power."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is band-pass filter? Frequencies above and below the pass band are heavily attenuated."
+      "stimuli": "What is band-pass filter? || Frequencies above and below the pass band are heavily attenuated."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is barrier potential? A number system having only two symbols, 0 and 1. A base 2 number system."
+      "stimuli": "What is barrier potential? || A number system having only two symbols, 0 and 1. A base 2 number system."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "A DC system"
+      "stimuli": "A DC || system"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "natural difference of BJT"
+      "stimuli": "natural difference of || BJT"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "battery or power"
+      "stimuli": "battery || or power"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Name for ammeter"
+      "stimuli": "Name for || ammeter"
     },
     {
       "technique": "AUTOCOMPASTE",
@@ -681,84 +681,84 @@
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "A circuit or terminal of a device."
+      "stimuli": "A circuit || or terminal of a device."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Power attained in an AC circuit and current which reach their peak at different times."
+      "stimuli": "Power attained in an AC circuit || and current which reach their peak at different times."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "An oscillator that can be heard by the human ear."
+      "stimuli": "An oscillator that || can be heard by the human ear."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Every noun must be corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+      "stimuli": "Every noun must be || corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is bistable multivibrator? This is in contrast to other adjectives and determiners, which are typically optional."
+      "stimuli": "What is bistable multivibrator? || This is in contrast to other adjectives and determiners, which are typically optional."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is battery? Also called a latch."
+      "stimuli": "What is battery? || Also called a latch."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is bistable multivibrator? An external signal is required to change the output from one state to the other."
+      "stimuli": "What is bistable multivibrator? || An external signal is required to change the output from one state to the other."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Width of the band of frequencies between the half power points. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+      "stimuli": "Width of the band of frequencies between the half power points. || This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "three stable states"
+      "stimuli": "three || stable states"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "optional adjectives and determiners"
+      "stimuli": "optional || adjectives and determiners"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "having two symbols"
+      "stimuli": "having || two symbols"
     },
     {
       "technique": "AUTOCOMPASTE",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "tuned circuit to pass a band of frequencies"
+      "stimuli": "tuned circuit || to pass a band of frequencies"
     },
     {
       "technique": "AUTOCOMPASTE",
@@ -849,84 +849,84 @@
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "A circuit or terminal of a device."
+      "stimuli": "A circuit || or terminal of a device."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Power attained in an AC circuit and current which reach their peak at different times."
+      "stimuli": "Power attained in an AC circuit || and current which reach their peak at different times."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "An oscillator that can be heard by the human ear."
+      "stimuli": "An oscillator that || can be heard by the human ear."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "sentence",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Every noun must be corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+      "stimuli": "Every noun must be || corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is bistable multivibrator? This is in contrast to other adjectives and determiners, which are typically optional."
+      "stimuli": "What is bistable multivibrator? || This is in contrast to other adjectives and determiners, which are typically optional."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is battery? Also called a latch."
+      "stimuli": "What is battery? || Also called a latch."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "What is bistable multivibrator? An external signal is required to change the output from one state to the other."
+      "stimuli": "What is bistable multivibrator? || An external signal is required to change the output from one state to the other."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Width of the band of frequencies between the half power points. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+      "stimuli": "Width of the band of frequencies between the half power points. || This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "three stable states"
+      "stimuli": "three || stable states"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "optional adjectives and determiners"
+      "stimuli": "optional || adjectives and determiners"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "having two symbols"
+      "stimuli": "having || two symbols"
     },
     {
       "technique": "TRADITIONAL",
       "granularity": "phrase",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "tuned circuit to pass a band of frequencies"
+      "stimuli": "tuned circuit || to pass a band of frequencies"
     },
     {
       "technique": "TRADITIONAL",
