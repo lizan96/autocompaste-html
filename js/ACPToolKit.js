@@ -387,7 +387,7 @@ var ACPToolKit = (function () {
             if (stimuli === "falls back and repeats") {
                 var stimuli1 = "falls back";
                 var stimuli2 = "and";
-                var stimuli3 = "repears";
+                var stimuli3 = "repeats";
                 iface.addEventListener('loaded', function () {
                     var lines_to_highlight_1 = stimuli1.split("\n\n");
                     var lines_to_highlight_2 = stimuli2.split("\n\n");
@@ -1142,6 +1142,36 @@ var ACPToolKit = (function () {
             if (stimuli === "tuned circuit to pass a band of frequencies") {
                 var stimuli1 = "tuned circuit";
                 var stimuli2 = "to pass a band of frequencies";
+                iface.addEventListener('loaded', function () {
+                    var lines_to_highlight_1 = stimuli1.split("\n\n");
+                    var lines_to_highlight_2 = stimuli2.split("\n\n");
+
+                    var windows = wm.getWindowList();
+                    for (var i = 0; i < windows.length; i++) {
+                        if (windows[i] == 'text_editor') {
+                            continue;
+                        }
+
+                        var win = wm.getWindowContent(windows[i]);
+                        var content = $(win).find('pre').html();
+                        lines_to_highlight_1.map (function (value, index, array) {
+
+                            content = content.replace (value,
+                            "<span class=\"highlighted\">" + value + "</span>");
+                        });
+                        lines_to_highlight_2.map (function (value, index, array) {
+
+                            content = content.replace (value,
+                            "<span class=\"highlighted\">" + value + "</span>");
+                        });
+
+                      $(win).find('pre').empty().append(content);
+                    }
+                });     
+            }
+            if (stimuli === "What is AC generator? What is barrier potential?") {
+                var stimuli1 = "What is AC generator?";
+                var stimuli2 = "What is barrier potential?";
                 iface.addEventListener('loaded', function () {
                     var lines_to_highlight_1 = stimuli1.split("\n\n");
                     var lines_to_highlight_2 = stimuli2.split("\n\n");
