@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 What is absorption? Loss or dissipation of energy as it travels through a medium. Example: radio waves lose some of their energy as they travel through that atmosphere. What about this... Hello there
-=======
-What is absorption? Loss or dissipation of energy as it travels through a medium. 
-Example: radio waves lose some of their energy as they travel through that atmosphere. What about this... Hello there
->>>>>>> d949e1681ff0848affcde6c5b35ab2189f6363b9
 
 What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms.
 
@@ -61,12 +56,7 @@ What is atomic number? The number of positive charges or protons in the nucleus 
 
 What is attenuate? To reduce the amplitude of an action or signal. The opposite of amplification.
 
-<<<<<<< HEAD
 What is audio? Relating to frequencies that can be heard by the human ear. Approximately 20 Hz to 20 kHz.
-=======
-What is audio? Relating to frequencies that can be heard by the human ear. 
-Approximately 20 Hz to 20 kHz.
->>>>>>> d949e1681ff0848affcde6c5b35ab2189f6363b9
 
 What is autotransformer? A single winding transformer where the output is taken from taps on the winding.
 
@@ -76,12 +66,7 @@ What is avionics? Aviation electronics.
 
 What is balanced bridge? Condition that occurs when a bridge circuit is adjusted to produce a zero output.
 
-<<<<<<< HEAD
 What is band-pass filter? A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). Frequencies above and below the pass band are heavily attenuated.
-=======
-What is band-pass filter? A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). 
-Frequencies above and below the pass band are heavily attenuated.
->>>>>>> d949e1681ff0848affcde6c5b35ab2189f6363b9
 
 What is bandwidth? Width of the band of frequencies between the half power points.
 
@@ -95,17 +80,8 @@ What is binary? A number system having only two symbols, 0 and 1. A base 2 numbe
 
 What is bipolar junction transistor? (BJT). A three terminal device in which emitter to collector current is controlled by base current.
 
-<<<<<<< HEAD
 What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch.
 
 Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that').
-=======
-What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. 
-Also called a latch.
-
-Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that').
-
-In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness. This is in contrast to other adjectives and determiners, which are typically optional. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the.
->>>>>>> d949e1681ff0848affcde6c5b35ab2189f6363b9
 
 In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness. This is in contrast to other adjectives and determiners, which are typically optional. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the.

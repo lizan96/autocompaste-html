@@ -113,7 +113,7 @@ var ACPToolKit = (function () {
             
             // Highlight the relevant text.
             // hard-coded for separate texts
-            if (stimuli === "number of || atoms") {
+            if (stimuli === "number of atoms") {
                 var stimuli1 = "number of";
                 var stimuli2 = "atoms";
                 iface.addEventListener('loaded', function () {
@@ -143,7 +143,7 @@ var ACPToolKit = (function () {
                 }
                 });   
             }
-            if (stimuli === "What is || an amplifier?") {
+            if (stimuli === "What is an amplifier?") {
                 var stimuli1 = "What is";
                 var stimuli2 = "an amplifier?";
                 iface.addEventListener('loaded', function () {
@@ -173,7 +173,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "articles || cannot easily be combined with other parts of speech.") {
+            if (stimuli === "articles cannot easily be combined with other parts of speech.") {
                 var stimuli1 = "articles";
                 var stimuli2 = "cannot easily be combined with other parts of speech.";
                 iface.addEventListener('loaded', function () {
@@ -203,7 +203,7 @@ var ACPToolKit = (function () {
                 }
                 });   
             }
-            if (stimuli === "A method of biasing a BJT || is supplied to the base by means of a resistor.") {
+            if (stimuli === "A method of biasing a BJT is supplied to the base by means of a resistor.") {
                 var stimuli1 = "A method of biasing a BJT";
                 var stimuli2 = "is supplied to the base by means of a resistor.";
                 iface.addEventListener('loaded', function () {
@@ -233,7 +233,7 @@ var ACPToolKit = (function () {
                 }
                 });   
             }
-            if (stimuli === "What is avionics? || What is barrier potential?") {
+            if (stimuli === "What is avionics? What is barrier potential?") {
                 var stimuli1 = "What is avionics?";
                 var stimuli2 = "What is barrier potential?";
                 iface.addEventListener('loaded', function () {
@@ -263,7 +263,7 @@ var ACPToolKit = (function () {
                 }
                 });   
             }
-            if (stimuli === "A value of voltage or current where the area of the wave above the value equals the area of the wave below the value. || Aviation electronics.") {
+            if (stimuli === "A value of voltage or current where the area of the wave above the value equals the area of the wave below the value. Aviation electronics.") {
                 var stimuli1 = "Aviation electronics.";
                 var stimuli2 = "A value of voltage or current where the area of the wave above the value equals the area of the wave below the value.";
                 iface.addEventListener('loaded', function () {
@@ -293,7 +293,7 @@ var ACPToolKit = (function () {
                 }
                 });   
             }
-            if (stimuli === "Traditionally in English, an article is usually considered to be a type of adjective. || It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that').") {
+            if (stimuli === "Traditionally in English, an article is usually considered to be a type of adjective.It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that').") {
                 var stimuli1 = "Traditionally in English, an article is usually considered to be a type of adjective.";
                 var stimuli2 = "It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that').";
                 iface.addEventListener('loaded', function () {
@@ -323,7 +323,7 @@ var ACPToolKit = (function () {
                 }
                 });   
             }
-            if (stimuli === "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. || This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the.") {
+            if (stimuli === "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the.") {
                 var stimuli1 = "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number.";
                 var stimuli2 = "This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the.";
                 iface.addEventListener('loaded', function () {
@@ -353,7 +353,7 @@ var ACPToolKit = (function () {
                 }
                 });   
             }
-            if (stimuli === "a type of || languages") {
+            if (stimuli === "a type of languages") {
                 var stimuli1 = "a type of";
                 var stimuli2 = "languages";
                 iface.addEventListener('loaded', function () {
@@ -384,7 +384,7 @@ var ACPToolKit = (function () {
                 });   
             }
           
-            if (stimuli === "falls back || and || repeats") {
+            if (stimuli === "falls back and repeats") {
                 var stimuli1 = "falls back";
                 var stimuli2 = "and";
                 var stimuli3 = "repears";
@@ -421,7 +421,7 @@ var ACPToolKit = (function () {
                 }
                 });   
             }
-            if (stimuli === "all possible || AC output voltage") {
+            if (stimuli === "all possible AC output voltage") {
                 var stimuli1 = "all possible";
                 var stimuli2 = "AC output voltage";
                 iface.addEventListener('loaded', function () {
@@ -449,7 +449,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "A filter || in addition to reactive components to pass or reject selected frequencies") {
+            if (stimuli === "A filter in addition to reactive components to pass or reject selected frequencies") {
                 var stimuli1 = "A filter";
                 var stimuli2 = "in addition to reactive components to pass or reject selected frequencies";
                 iface.addEventListener('loaded', function () {
@@ -479,7 +479,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "articles || cannot easily be combined with other parts of speech") {
+            if (stimuli === "articles cannot easily be combined with other parts of speech") {
                 var stimuli1 = "articles";
                 var stimuli2 = "cannot easily be combined with other parts of speech";
                 iface.addEventListener('loaded', function () {
@@ -509,7 +509,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "Equipment || that passes an AC signal while blocking a DC voltage.") {
+            if (stimuli === "Equipment that passes an AC signal while blocking a DC voltage.") {
                 var stimuli1 = "Equipment";
                 var stimuli2 = "that passes an AC signal while blocking a DC voltage.";
                 iface.addEventListener('loaded', function () {
@@ -539,7 +539,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "Power supply || that changes the amplitude of a signal between input and output.") {
+            if (stimuli === "Power supply that changes the amplitude of a signal between input and output.") {
                 var stimuli1 = "Power supply";
                 var stimuli2 = "that changes the amplitude of a signal between input and output.";
                 iface.addEventListener('loaded', function () {
@@ -569,7 +569,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "The region of BJT operation || in which the polarity alternates.") {
+            if (stimuli === "The region of BJT operation in which the polarity alternates.") {
                 var stimuli1 = "The region of BJT operation";
                 var stimuli2 = "in which the polarity alternates.";
                 iface.addEventListener('loaded', function () {
@@ -599,7 +599,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "What is AC coupling? || Device used to transform mechanical energy into AC electrical power.") {
+            if (stimuli === "What is AC coupling? Device used to transform mechanical energy into AC electrical power.") {
                 var stimuli1 = "What is AC coupling?";
                 var stimuli2 = "Device used to transform mechanical energy into AC electrical power.";
                 iface.addEventListener('loaded', function () {
@@ -629,7 +629,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "What is band-pass filter? || Frequencies above and below the pass band are heavily attenuated.") {
+            if (stimuli === "What is band-pass filter? Frequencies above and below the pass band are heavily attenuated.") {
                 var stimuli1 = "What is band-pass filter?";
                 var stimuli2 = "Frequencies above and below the pass band are heavily attenuated.";
                 iface.addEventListener('loaded', function () {
@@ -659,7 +659,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "What is barrier potential? || A number system having only two symbols, 0 and 1. A base 2 number system.") {
+            if (stimuli === "What is barrier potential? A number system having only two symbols, 0 and 1. A base 2 number system.") {
                 var stimuli1 = "What is barrier potential?";
                 var stimuli2 = "A number system having only two symbols, 0 and 1. A base 2 number system.";
                 iface.addEventListener('loaded', function () {
@@ -689,7 +689,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "A DC || system") {
+            if (stimuli === "A DC system") {
                 var stimuli1 = "A DC";
                 var stimuli2 = "system";
                 iface.addEventListener('loaded', function () {
@@ -719,7 +719,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "natural difference of || BJT") {
+            if (stimuli === "natural difference of BJT") {
                 var stimuli1 = "natural difference of";
                 var stimuli2 = "BJT";
                 iface.addEventListener('loaded', function () {
@@ -749,7 +749,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "battery || or power") {
+            if (stimuli === "battery or power") {
                 var stimuli1 = "battery";
                 var stimuli2 = "or power";
                 iface.addEventListener('loaded', function () {
@@ -779,7 +779,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "Name for || ammeter") {
+            if (stimuli === "Name for ammeter") {
                 var stimuli1 = "Name for";
                 var stimuli2 = "ammeter";
                 iface.addEventListener('loaded', function () {
@@ -809,7 +809,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "A circuit || or terminal of a device.") {
+            if (stimuli === "A circuit or terminal of a device.") {
                 var stimuli1 = "A circuit";
                 var stimuli2 = "or terminal of a device.";
                 iface.addEventListener('loaded', function () {
@@ -839,7 +839,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "Power attained in an AC circuit || and current which reach their peak at different times.") {
+            if (stimuli === "Power attained in an AC circuit and current which reach their peak at different times.") {
                 var stimuli1 = "Power attained in an AC circuit";
                 var stimuli2 = "and current which reach their peak at different times.";
                 iface.addEventListener('loaded', function () {
@@ -869,7 +869,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "An oscillator that || can be heard by the human ear.") {
+            if (stimuli === "An oscillator that can be heard by the human ear.") {
                 var stimuli1 = "An oscillator that";
                 var stimuli2 = "can be heard by the human ear.";
                 iface.addEventListener('loaded', function () {
@@ -899,7 +899,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "Every noun must be || corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness.") {
+            if (stimuli === "Every noun must be corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness.") {
                 var stimuli1 = "Every noun must be";
                 var stimuli2 = "corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness.";
                 iface.addEventListener('loaded', function () {
@@ -929,7 +929,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "What is bistable multivibrator? || This is in contrast to other adjectives and determiners, which are typically optional.") {
+            if (stimuli === "What is bistable multivibrator? This is in contrast to other adjectives and determiners, which are typically optional.") {
                 var stimuli1 = "What is bistable multivibrator?";
                 var stimuli2 = "This is in contrast to other adjectives and determiners, which are typically optional.";
                 iface.addEventListener('loaded', function () {
@@ -959,7 +959,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "What is battery? || Also called a latch.") {
+            if (stimuli === "What is battery? Also called a latch.") {
                 var stimuli1 = "What is battery?";
                 var stimuli2 = "Also called a latch.";
                 iface.addEventListener('loaded', function () {
@@ -989,7 +989,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "What is bistable multivibrator? || An external signal is required to change the output from one state to the other.") {
+            if (stimuli === "What is bistable multivibrator? An external signal is required to change the output from one state to the other.") {
                 var stimuli1 = "What is bistable multivibrator?";
                 var stimuli2 = "An external signal is required to change the output from one state to the other.";
                 iface.addEventListener('loaded', function () {
@@ -1019,7 +1019,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "Width of the band of frequencies between the half power points. || This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the.") {
+            if (stimuli === "Width of the band of frequencies between the half power points. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the.") {
                 var stimuli1 = "Width of the band of frequencies between the half power points.";
                 var stimuli2 = "This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the.";
                 iface.addEventListener('loaded', function () {
@@ -1049,7 +1049,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "three || stable states") {
+            if (stimuli === "three stable states") {
                 var stimuli1 = "three";
                 var stimuli2 = "stable states";
                 iface.addEventListener('loaded', function () {
@@ -1079,7 +1079,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "optional || adjectives and determiners") {
+            if (stimuli === "optional adjectives and determiners") {
                 var stimuli1 = "optional";
                 var stimuli2 = "adjectives and determiners";
                 iface.addEventListener('loaded', function () {
@@ -1109,7 +1109,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "having || two symbols") {
+            if (stimuli === "having two symbols") {
                 var stimuli1 = "having";
                 var stimuli2 = "two symbols";
                 iface.addEventListener('loaded', function () {
@@ -1139,7 +1139,7 @@ var ACPToolKit = (function () {
                     }
                 });   
             }
-            if (stimuli === "tuned circuit || to pass a band of frequencies") {
+            if (stimuli === "tuned circuit to pass a band of frequencies") {
                 var stimuli1 = "tuned circuit";
                 var stimuli2 = "to pass a band of frequencies";
                 iface.addEventListener('loaded', function () {
