@@ -423,11 +423,11 @@
       "stimuli": "Name for ammeter"
     },
     {
-      "technique": "TRADITIONAL",
-      "granularity": "sentence",
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
       "continuity": "continuous",
       "data_file": "data/texts.json",
-      "stimuli": "What is active region?"
+      "stimuli": "barrier potential"
     },
     {
       "technique": "AUTOCOMPASTE",
@@ -591,11 +591,11 @@
       "stimuli": "Name for ammeter"
     },
     {
-      "technique": "AUTOCOMPASTE",
-      "granularity": "phrase",
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
       "continuity": "continuous",
       "data_file": "data/texts.json",
-      "stimuli": "barrier potential"
+      "stimuli": "What is active region?"
     },
     {
       "technique": "TRADITIONAL",
