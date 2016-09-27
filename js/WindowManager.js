@@ -646,14 +646,15 @@ var WindowManager = (function () {
       }
 
       // Figure out which windows are damaged and re-render.
-      for (var i = 0; i < privates.damaged_windows.length; i++) {
-        var window_name = privates.damaged_windows[i];
+      // fix the article window
+       for (var i = 0; i < privates.damaged_windows.length; i++) {
+        var window_name = privates.damaged_windows[1];
         var wd = privates.windows[window_name];
         if (wd) {
           var x = wd.x;
           var y = wd.y;
           $(privates.windows[window_name].struct).css(
-            "transform", "translate(" + x + "px, " + y + "px)"
+            "transform", "translate(" + 326 + "px, " + -25 + "px)"
           );
         }
       }
