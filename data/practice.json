@@ -8,11 +8,81 @@
       "stimuli": "What is acceptor atoms?"
     },
     {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "method of biasing a BJT"
+    },
+     {
+      "technique": "TRADITIONAL",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Equipment that passes an AC signal while blocking a DC voltage."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is band-pass filter? Frequencies above and below the pass band are heavily attenuated."
+    },
+    {
+      "technique": "TRADITIONAL",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "A DC system"
+    },
+    {
       "technique": "AUTOCOMPASTE",
       "granularity": "sentence",
       "continuity": "continuous",
       "data_file": "data/texts.json",
       "stimuli": "What is acceptor atoms?"
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "continuous",
+      "data_file": "data/texts.json",
+      "stimuli": "method of biasing a BJT"
+    },
+     {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "sentence",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "Equipment that passes an AC signal while blocking a DC voltage."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "paragraph",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "What is band-pass filter? Frequencies above and below the pass band are heavily attenuated."
+    },
+    {
+      "technique": "AUTOCOMPASTE",
+      "granularity": "phrase",
+      "continuity": "separate",
+      "data_file": "data/texts.json",
+      "stimuli": "A DC system"
     }
   ]
 }
