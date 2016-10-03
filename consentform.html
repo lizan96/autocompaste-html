@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+    <body class="experiment-page">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -20,8 +20,8 @@
             <div class="container">
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Welcome</a></li>
-                        <li><a href="consentform.html">Consent Form</a></li>
+                        <li><a href="index.html">Welcome</a></li>
+                        <li class="active"><a href="consentform.html">Consent Form</a></li>
                         <li><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
                         <li><a href="instructions.html">Instructions</a></li>
                         <li><a href="practiceTrial.html">Practice</a></li>
@@ -31,26 +31,39 @@
                 </div>
             </div>
         </nav>
-
+        
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1>Welcome to our copy-paste experiment!</h1>
-                    <hr>
-                    <p>I am a Year 3 NUS Computer Science student conducting an experiment to compare AutoComPaste, which is a new copy-paste technique, with the traditional copy-paste (Ctrl-C Ctrl-V) technique. In this experiment, you will be guided to key in several texts by using the two techniques. </p>
-
-                    <p>Please write your participant number ID given by your experimenter. Participant IDs should start with either "AC", "AS", "CC" or "CS"</p>
-                    <form class="form-inline" id="pid-form">
-                        <div class="form-group">
-                            <label for="pid">Participant ID</label>
-                            <input name="pid" type="text" class="form-control" id="pid" placeholder="E.g. AC01">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                    <h1>Consent Form</h1>
+                    <br>
+                    <h4>Consent Form: Experiment on two copy-paste technique</h4>
+                    <br>
+                    <p>I hereby consent to participate in a research study conducted by Li Zan for an assignment in National University of Singapore, School of Computing, CS4249 (Phenomena and Theories of Human-computer Interaction).</p>
+                    <br>
+                    <p>I agree to participate in this study the purpose of which is to compare AutoComPaste, which is a new copy-paste technique, with the traditional copy-paste (Ctrl-C and Ctrl-V) technique. I understand that </p>
+                    <ol>
+                        <li>the procedures to be used are through the experiment website doing 4 trials per condition, 12 conditions per block and in total there are 4 blocks tasks.</li>
+                        <li>I will receive no compensation for my participation.</li>
+                        <li>I will receive no compensation for my participation.</li>
+                        <li>all materials and results will be kept confidential, and, in particular, that my name and any identifying or identified information will not be associated with the data.</li>
+                    </ol>
+                    
+                    <br>
+                    <div class="consentform_checkbox">
+                        <label>
+                          <input type="checkbox"> I hereby consent to participate this experiment and understand the agreements listed above.
+                        </label>
+                    </div>
+                    
+                    <br>
+                    <form class="form-inline">
+                        <button type="submit" class="btn btn-primary btn-lg">Next</button>
                     </form>
                 </div>
             </div>
         </div>
-
+        
         <script src="js/vendor/jquery-1.11.2.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/DataStorage.js"></script>
@@ -59,17 +72,15 @@
 
         <script>
             $(function () {
-                $('#pid-form').submit(function (event) {
+
+                $('form').submit(function (event) {
                     event.preventDefault();
-                    var participantId = $('#pid').val();
-                    if (participantId.includes("AC") || participantId.includes("AS") || participantId.includes("CC") || participantId.includes("CS")) {
-                        ACPToolKit.setCurrentParticipantId(participantId);
-                        window.location = 'questionnaire-pre.html';
-                    } else {
-                        alert('Please enter a valid Participant ID!');
-                    }
+                    window.location = 'questionnaire-pre.html';
                 });
+                
             });
         </script>
+
+    
     </body>
 </html>
