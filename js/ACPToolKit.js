@@ -293,7 +293,7 @@ var ACPToolKit = (function () {
                 }
                 });   
             }
-            if (stimuli === "Traditionally in English, an article is usually considered to be a type of adjective.It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that').") {
+            if (stimuli === "Traditionally in English, an article is usually considered to be a type of adjective. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that').") {
                 var stimuli1 = "Traditionally in English, an article is usually considered to be a type of adjective.";
                 var stimuli2 = "It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that').";
                 iface.addEventListener('loaded', function () {

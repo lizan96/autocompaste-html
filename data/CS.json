@@ -47,7 +47,7 @@
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective.It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+      "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
     },
     {
       "technique": "TRADITIONAL",
@@ -215,7 +215,7 @@
       "granularity": "paragraph",
       "continuity": "separate",
       "data_file": "data/texts.json",
-      "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective.It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+      "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
     },
     {
       "technique": "AUTOCOMPASTE",
